@@ -12,7 +12,7 @@ The raw data logs come in the form of CSV files, containing records of song play
 
 |column|description|data_type|
 |:-:|---|---|
-|   | This is a test to see if a column does wrapping. I hope it does but probaby not.|   |
+|   | This is a test to see if a column does wrapping. I hope it does but probaby not. This more wrapping. BLAHAHAHAHAAHAHAAHAHAHAHAAHAHAHAAH HAHAHAHHAHAAHAAHAHAHH AHAHAHAHAHHAHAAHAHAHA Yay!|   |
 |   |   |   |
 |   |   |   |
 |   |   |   |
