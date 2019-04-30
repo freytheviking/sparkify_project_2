@@ -10,18 +10,19 @@ The purpose of this project is to help a music streaming startup called Sparkify
 
 The raw data logs come in the form of CSV files, containing records of song plays. Below is the schema of the CSV log file, named `event_datafile_new.csv`:
 
-|column|description|data_type|
+|column_name|description|data_type|
 |:-:|---|---|
-|   | This is a test to see if a column does wrapping. I hope it does but probaby not. This more wrapping. BLAHAHAHAHAAHAHAAHAHAHAHAAHAHAHAAH HAHAHAHHAHAAHAAHAHAHH AHAHAHAHAHHAHAAHAHAHA Yay!|   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
-|   |   |   |
+|artist|Name of the artist|text|
+|firsName|First name of user|text|
+|gender|Gender of user|text|
+|itemInSession|Item number in session|int|
+|lastName|Last name of user|text|
+|length|Length of song|float|
+|level|Membership level of user|text|
+|location|Geographic location of user|text|
+|sessionId|The session id|int|
+|song|Name of song|text|
+|userId|The user id|int|
 
 
 
