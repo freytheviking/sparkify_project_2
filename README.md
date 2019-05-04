@@ -7,7 +7,11 @@ The purpose of this project is to help a music streaming startup called Sparkify
 
 ## The Raw Data
 
-The raw data logs come in the form of CSV files, containing records of song plays. Below is the schema of the CSV log file, named `event_datafile_new.csv`:
+The raw data logs come in the form of CSV files, containing records of song plays. Below is the schema of an example of a CSV log file.
+
+![Raw CSV](raw_csv.png)
+
+As one can see, the CSV log file contains rows that are empty (rows 2, 7, and 24), that is most likely due to a session where no songs were played and/or timed out sessions. The CSV also has many columns that are not necessarily useful for analytics. We want to process these CSV files to delete empty rows and only keep columns that the analytics team findes useful. Below is the schema we want for our cleaned CSV log file. 
 
 |column_name|description|data_type|
 |:-:|---|---|
@@ -39,7 +43,8 @@ Therefore, we will create one table for each of the above queries.
 ## Misc Architectural and Design Records
 
 
+
 ## How to Run ETL
 
+Please see `run_etl.ipynb`.
 
-## Example Queries
